@@ -7,12 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ItemDatabase.h"
 
 @class DetailViewController;
 
 @interface MasterViewController : UITableViewController
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
+@property (strong, nonatomic) ItemDatabase *database;
 
 
 @end

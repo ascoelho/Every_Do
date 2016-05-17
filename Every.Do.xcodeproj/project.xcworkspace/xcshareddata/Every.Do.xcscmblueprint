@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A5E7F939415A87A85D4F8724362E1ADF2C61EFA3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E481E78759B17BCE49C8EE349ABA6494202C2E31" : 0,
+    "A5E7F939415A87A85D4F8724362E1ADF2C61EFA3" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1D483E7F-4B71-456C-A7FB-3DAC49C4AC48",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E481E78759B17BCE49C8EE349ABA6494202C2E31" : "",
+    "A5E7F939415A87A85D4F8724362E1ADF2C61EFA3" : "Every.Do\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Every.Do",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Every.Do.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ascoelho\/Every_Do.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A5E7F939415A87A85D4F8724362E1ADF2C61EFA3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ascoelho\/c.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E481E78759B17BCE49C8EE349ABA6494202C2E31"
+    }
+  ]
+}

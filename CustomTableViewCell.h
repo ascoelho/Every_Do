@@ -1,5 +1,5 @@
 //
-//  DetailViewController.h
+//  CustomTableViewCell.h
 //  Every.Do
 //
 //  Created by Anthony Coelho on 2016-05-17.
@@ -7,16 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ToDo.h"
 
-@interface DetailViewController : UIViewController
-
-@property (strong, nonatomic) ToDo *detailItem;
+@interface CustomTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *itemTitleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *itemDescriptionLabel;
-@property (weak, nonatomic) IBOutlet UILabel *itemPriorityLabel;
-@property (weak, nonatomic) IBOutlet UILabel *itemStatusLabel;
-
+@property (weak, nonatomic) IBOutlet UILabel *itemPriorityNumber;
+@property (weak, nonatomic) IBOutlet UILabel *itemStatus;
 
 @end
-

@@ -16,6 +16,10 @@
 		43DB0BAB1CEB6F1F006AF5F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43DB0BA91CEB6F1F006AF5F7 /* LaunchScreen.storyboard */; };
 		43DB0BB61CEB6F1F006AF5F7 /* Every_DoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DB0BB51CEB6F1F006AF5F7 /* Every_DoTests.m */; };
 		43DB0BC11CEB6F1F006AF5F7 /* Every_DoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DB0BC01CEB6F1F006AF5F7 /* Every_DoUITests.m */; };
+		43DB0BD01CEB7020006AF5F7 /* ToDo.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DB0BCF1CEB7020006AF5F7 /* ToDo.m */; };
+		43DB0BD61CEB71A2006AF5F7 /* ItemDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DB0BD51CEB71A2006AF5F7 /* ItemDatabase.m */; };
+		43DB0BDD1CEB772C006AF5F7 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DB0BDB1CEB772C006AF5F7 /* CustomTableViewCell.m */; };
+		43DB0BE11CEB8CBA006AF5F7 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DB0BE01CEB8CBA006AF5F7 /* ModalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,14 @@
 		43DB0BBC1CEB6F1F006AF5F7 /* Every.DoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Every.DoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43DB0BC01CEB6F1F006AF5F7 /* Every_DoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Every_DoUITests.m; sourceTree = "<group>"; };
 		43DB0BC21CEB6F1F006AF5F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43DB0BCE1CEB7020006AF5F7 /* ToDo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDo.h; sourceTree = "<group>"; };
+		43DB0BCF1CEB7020006AF5F7 /* ToDo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDo.m; sourceTree = "<group>"; };
+		43DB0BD41CEB71A2006AF5F7 /* ItemDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemDatabase.h; path = ../ItemDatabase.h; sourceTree = "<group>"; };
+		43DB0BD51CEB71A2006AF5F7 /* ItemDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemDatabase.m; path = ../ItemDatabase.m; sourceTree = "<group>"; };
+		43DB0BDA1CEB772C006AF5F7 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTableViewCell.h; path = ../CustomTableViewCell.h; sourceTree = "<group>"; };
+		43DB0BDB1CEB772C006AF5F7 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTableViewCell.m; path = ../CustomTableViewCell.m; sourceTree = "<group>"; };
+		43DB0BDF1CEB8CBA006AF5F7 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		43DB0BE01CEB8CBA006AF5F7 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +122,15 @@
 				43DB0B9F1CEB6F1F006AF5F7 /* MasterViewController.m */,
 				43DB0BA11CEB6F1F006AF5F7 /* DetailViewController.h */,
 				43DB0BA21CEB6F1F006AF5F7 /* DetailViewController.m */,
+				43DB0BDA1CEB772C006AF5F7 /* CustomTableViewCell.h */,
+				43DB0BDB1CEB772C006AF5F7 /* CustomTableViewCell.m */,
+				43DB0BDF1CEB8CBA006AF5F7 /* ModalViewController.h */,
+				43DB0BE01CEB8CBA006AF5F7 /* ModalViewController.m */,
 				43DB0BA41CEB6F1F006AF5F7 /* Main.storyboard */,
+				43DB0BD41CEB71A2006AF5F7 /* ItemDatabase.h */,
+				43DB0BD51CEB71A2006AF5F7 /* ItemDatabase.m */,
+				43DB0BCE1CEB7020006AF5F7 /* ToDo.h */,
+				43DB0BCF1CEB7020006AF5F7 /* ToDo.m */,
 				43DB0BA71CEB6F1F006AF5F7 /* Assets.xcassets */,
 				43DB0BA91CEB6F1F006AF5F7 /* LaunchScreen.storyboard */,
 				43DB0BAC1CEB6F1F006AF5F7 /* Info.plist */,
@@ -275,8 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43DB0BD01CEB7020006AF5F7 /* ToDo.m in Sources */,
+				43DB0BDD1CEB772C006AF5F7 /* CustomTableViewCell.m in Sources */,
 				43DB0B9D1CEB6F1F006AF5F7 /* AppDelegate.m in Sources */,
 				43DB0BA01CEB6F1F006AF5F7 /* MasterViewController.m in Sources */,
+				43DB0BE11CEB8CBA006AF5F7 /* ModalViewController.m in Sources */,
+				43DB0BD61CEB71A2006AF5F7 /* ItemDatabase.m in Sources */,
 				43DB0B9A1CEB6F1F006AF5F7 /* main.m in Sources */,
 				43DB0BA31CEB6F1F006AF5F7 /* DetailViewController.m in Sources */,
 			);
@@ -504,6 +528,7 @@
 				43DB0BC71CEB6F1F006AF5F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43DB0BC81CEB6F1F006AF5F7 /* Build configuration list for PBXNativeTarget "Every.DoTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +537,7 @@
 				43DB0BCA1CEB6F1F006AF5F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43DB0BCB1CEB6F1F006AF5F7 /* Build configuration list for PBXNativeTarget "Every.DoUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +546,7 @@
 				43DB0BCD1CEB6F1F006AF5F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
